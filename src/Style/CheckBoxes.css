@@ -1,0 +1,29 @@
+#checkbox-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#uneasy-checkbox-label {
+  padding: 5px 20px;
+  color: aliceblue;
+  background-color: #020a7e;
+  font: 0.8em sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#easy-checkbox-label {
+  padding: 5px 20px;
+  color: aliceblue;
+  background-color: #5c62b9;
+  font: 0.8em sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#easy-checkbox-label:hover {
+  background-color: black;
+}
+
+#uneasy-checkbox-label:hover {
+  background-color: black;
+}

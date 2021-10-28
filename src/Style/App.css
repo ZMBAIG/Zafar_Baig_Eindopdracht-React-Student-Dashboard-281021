@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+body {
+  font-family: "Abel";
+  margin: 0px 40px 20px;
+  background-image: linear-gradient(
+    to right,
+    rgba(202, 205, 245, 0.24),
+    rgb(151, 191, 236)
+  );
+}
+
+#filters-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+label {
+  margin: 0px 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 8px 5px;
+}
+
+.chart-div {
+  display: flex;
+}
+
+figure {
+  margin: 0;
+  margin-bottom: 40px;
+}

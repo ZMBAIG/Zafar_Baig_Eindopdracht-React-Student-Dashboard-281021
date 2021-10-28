@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  padding: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(172, 37, 37, 0),
+    rgb(137, 188, 247)
+  );
+  color: #4c5199;
+  border: inset 1.5px;
+}
+
+footer a {
+  color: #020a7e;
+  font-family: "Ephesis";
+  font-size: 1.5em;
+}
+
+span {
+  font-size: 1em;
+  text-transform: uppercase;
+}
